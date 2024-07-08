@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <>
       {page === "heater" && <Heater setPage={setPage} />}
-      {page === "temp" && <Temp setPage={setPage} />}
+      {page === "temp" && <Temp />}
     </>
   );
 };
